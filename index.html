@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxe Nest Decor - Transform Your Home Into a Luxurious Living Space</title>
+  <meta name="description" content="Professional home décor and styling services designed to elevate comfort, elegance, and functionality in every room.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- SVG Icons -->
+  <div style="display: none;">
+    <svg xmlns="http://www.w3.org/2000/svg">
+      <symbol id="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </symbol>
+      <symbol id="icon-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </symbol>
+      <symbol id="icon-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+      </symbol>
+      <symbol id="icon-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+        <polyline points="22,6 12,13 2,6"></polyline>
+      </symbol>
+      <symbol id="icon-map-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+        <circle cx="12" cy="10" r="3"></circle>
+      </symbol>
+      <symbol id="icon-star" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2">
+        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+      </symbol>
+    </svg>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <a href="index.html" class="logo">Luxe Nest Decor</a>
+        
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        
+        <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle menu">
+          <svg width="24" height="24"><use href="#icon-menu"></use></svg>
+        </button>
+      </div>
+      
+      <div id="mobile-menu" class="mobile-menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" style="padding: 5rem 0;">
+      <div class="container">
+        <div class="grid grid-2" style="align-items: center;">
+          <div>
+            <h1 style="font-size: 3rem; line-height: 1.1; margin-bottom: 1.5rem;">Transform Your Home Into a Luxurious Living Space</h1>
+            <p style="font-size: 1.25rem; margin-bottom: 2rem; color: var(--color-gray-700);">Professional home décor and styling services designed to elevate comfort, elegance, and functionality in every room.</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 1rem;">
+              <button class="btn btn-primary btn-large" data-open-lead-form>Get Free Consultation</button>
+              <a href="#services" class="btn btn-outline btn-large">View Our Services</a>
+            </div>
+          </div>
+          <div>
+            <img src="https://images.unsplash.com/photo-1639663742190-1b3dba2eebcf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" alt="Modern luxury living room interior" style="border-radius: 0.5rem; box-shadow: 0 20px 40px rgba(0,0,0,0.2); width: 100%;">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="section">
+      <div class="container">
+        <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+          <h2 class="section-title">Welcome to Luxe Nest Decor</h2>
+          <p style="font-size: 1.125rem; color: var(--color-gray-700); line-height: 1.8;">Luxe Nest Decor provides modern, stylish, and functional décor solutions tailored to homeowners across the United States. We believe every home should reflect your unique personality while offering comfort and sophistication. Our expert design specialists work with you to create spaces you'll love coming home to.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h2 class="section-title">Why Choose Luxe Nest Decor</h2>
+          <p style="font-size: 1.125rem; color: var(--color-gray-600); max-width: 700px; margin: 0 auto;">We're committed to delivering exceptional home styling services that exceed your expectations</p>
+        </div>
+        <div class="grid grid-3">
+          <div class="card">
+            <div style="width: 48px; height: 48px; background-color: rgba(139, 115, 85, 0.1); border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+              <span style="font-size: 2rem;">🛡️</span>
+            </div>
+            <h3>Experienced Design Specialists</h3>
+            <p>Our team brings years of expertise in modern home décor</p>
+          </div>
+          <div class="card">
+            <div style="width: 48px; height: 48px; background-color: rgba(139, 115, 85, 0.1); border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+              <span style="font-size: 2rem;">🎨</span>
+            </div>
+            <h3>Personalized Décor Solutions</h3>
+            <p>Custom styling tailored to your unique taste and lifestyle</p>
+          </div>
+          <div class="card">
+            <div style="width: 48px; height: 48px; background-color: rgba(139, 115, 85, 0.1); border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+              <span style="font-size: 2rem;">✨</span>
+            </div>
+            <h3>Affordable Luxury Styling</h3>
+            <p>Premium design services at accessible prices</p>
+          </div>
+          <div class="card">
+            <div style="width: 48px; height: 48px; background-color: rgba(139, 115, 85, 0.1); border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+              <span style="font-size: 2rem;">⏱️</span>
+            </div>
+            <h3>Fast Consultation Process</h3>
+            <p>Quick and efficient service from start to finish</p>
+          </div>
+          <div class="card">
+            <div style="width: 48px; height: 48px; background-color: rgba(139, 115, 85, 0.1); border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+              <span style="font-size: 2rem;">✓</span>
+            </div>
+            <h3>Quality Décor Recommendations</h3>
+            <p>Carefully curated suggestions for lasting style</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Overview Section -->
+    <section id="services" class="section">
+      <div class="container">
+        <div class="text-center mb-4">
+          <h2 class="section-title">Our Services Overview</h2>
+          <p style="font-size: 1.125rem; color: var(--color-gray-600); max-width: 700px; margin: 0 auto;">Comprehensive home décor solutions designed to transform your living spaces</p>
+        </div>
+        <div class="grid grid-3">
+          <div class="card">
+            <h3>Interior Styling</h3>
+            <p>Professional styling consultation to transform your space</p>
+          </div>
+          <div class="card">
+            <h3>Living Room Décor</h3>
+            <p>Create inviting and functional living spaces</p>
+          </div>
+          <div class="card">
+            <h3>Bedroom Styling</h3>
+            <p>Design peaceful and elegant bedroom retreats</p>
+          </div>
+          <div class="card">
+            <h3>Wall Décor & Art Placement</h3>
+            <p>Expert guidance on artwork and wall styling</p>
+          </div>
+          <div class="card">
+            <h3>Furniture Arrangement</h3>
+            <p>Optimize your space for better flow and function</p>
+          </div>
+          <div class="card">
+            <h3>Seasonal Home Styling</h3>
+            <p>Refresh your home for holidays and seasons</p>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <a href="services.html" class="btn btn-primary btn-large">View All Services</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">What Our Clients Say</h2>
+        <div class="grid grid-2">
+          <div class="testimonial">
+            <div class="testimonial-rating">
+              ⭐⭐⭐⭐⭐
+            </div>
+            <p class="testimonial-text">"Luxe Nest Decor transformed my living room into a stunning space. The consultation was professional and the results exceeded my expectations!"</p>
+            <p class="testimonial-author">Sarah Mitchell</p>
+            <p class="testimonial-location">Austin, TX</p>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-rating">
+              ⭐⭐⭐⭐⭐
+            </div>
+            <p class="testimonial-text">"I couldn't be happier with the bedroom styling service. My room feels like a luxury hotel suite now. Highly recommend!"</p>
+            <p class="testimonial-author">Jennifer Davis</p>
+            <p class="testimonial-location">Dallas, TX</p>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-rating">
+              ⭐⭐⭐⭐⭐
+            </div>
+            <p class="testimonial-text">"The furniture arrangement consultation made such a difference. My home feels more spacious and functional. Great service!"</p>
+            <p class="testimonial-author">Michael Roberts</p>
+            <p class="testimonial-location">Houston, TX</p>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial-rating">
+              ⭐⭐⭐⭐⭐
+            </div>
+            <p class="testimonial-text">"Professional, creative, and affordable. Luxe Nest Decor helped me achieve the elegant home I always wanted."</p>
+            <p class="testimonial-author">Emily Thompson</p>
+            <p class="testimonial-location">San Antonio, TX</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Affordable Pricing Plans</h2>
+        <div class="grid grid-3">
+          <div class="pricing-card">
+            <h3 class="pricing-name">Basic Styling Consultation</h3>
+            <div class="pricing-price">$99</div>
+            <p class="pricing-description">Includes virtual consultation and styling suggestions.</p>
+            <ul class="pricing-features">
+              <li>30-minute virtual consultation</li>
+              <li>Personalized styling guide</li>
+              <li>Color palette recommendations</li>
+              <li>Email support</li>
+            </ul>
+            <button class="btn btn-primary" style="width: 100%;" data-open-lead-form>Choose Plan</button>
+          </div>
+          <div class="pricing-card featured">
+            <h3 class="pricing-name">Room Refresh Package</h3>
+            <div class="pricing-price">$349</div>
+            <p class="pricing-description">Includes décor layout planning, furniture arrangement ideas, and styling guide.</p>
+            <ul class="pricing-features">
+              <li>Complete room assessment</li>
+              <li>Detailed layout planning</li>
+              <li>Furniture arrangement ideas</li>
+              <li>Styling guide with visuals</li>
+              <li>Shopping recommendations</li>
+              <li>Follow-up consultation</li>
+            </ul>
+            <button class="btn btn-primary" style="width: 100%;" data-open-lead-form>Choose Plan</button>
+          </div>
+          <div class="pricing-card">
+            <h3 class="pricing-name">Full Home Styling</h3>
+            <div class="pricing-price">$899+</div>
+            <p class="pricing-description">Includes design planning for multiple rooms and décor recommendations.</p>
+            <ul class="pricing-features">
+              <li>Multi-room design planning</li>
+              <li>Comprehensive décor strategy</li>
+              <li>Custom furniture layouts</li>
+              <li>Complete shopping guide</li>
+              <li>3 follow-up consultations</li>
+              <li>Priority support</li>
+            </ul>
+            <button class="btn btn-primary" style="width: 100%;" data-open-lead-form>Choose Plan</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section" style="background: linear-gradient(135deg, var(--color-beige), var(--color-cream)); text-align: center;">
+      <div class="container">
+        <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Ready to Transform Your Home?</h2>
+        <p style="font-size: 1.25rem; margin-bottom: 2rem; color: var(--color-gray-700); max-width: 700px; margin-left: auto; margin-right: auto;">Schedule a free consultation with our design experts and discover how we can create the home of your dreams.</p>
+        <button class="btn btn-primary btn-large" data-open-lead-form>Get Started Today</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+            <li><a href="disclaimer.html">Disclaimer</a></li>
+            <li><a href="cookie-policy.html">Cookie Policy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact Info</h3>
+          <ul>
+            <li class="contact-item">
+              <svg class="footer-icon"><use href="#icon-map-pin"></use></svg>
+              <span>10222 Desert Sands St Ste 204<br>San Antonio, TX 78116<br>United States</span>
+            </li>
+            <li class="contact-item">
+              <svg class="footer-icon"><use href="#icon-phone"></use></svg>
+              <a href="tel:+18053569285">+1-805-356-9285</a>
+            </li>
+            <li class="contact-item">
+              <svg class="footer-icon"><use href="#icon-mail"></use></svg>
+              <a href="mailto:help@luxenestdecor.site">help@luxenestdecor.site</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Luxe Nest Decor. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lead Form Modal -->
+  <div id="lead-form-modal" class="modal-overlay">
+    <div class="modal">
+      <button id="close-lead-form" class="modal-close">&times;</button>
+      <div class="modal-header">
+        <h2 class="modal-title">Request a Free Consultation</h2>
+      </div>
+      <form id="lead-form">
+        <div class="form-group">
+          <label class="form-label" for="lead-name">Name *</label>
+          <input type="text" id="lead-name" class="form-input" placeholder="Your full name" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="lead-email">Email *</label>
+          <input type="email" id="lead-email" class="form-input" placeholder="your@email.com" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="lead-phone">Phone *</label>
+          <input type="tel" id="lead-phone" class="form-input" placeholder="(555) 123-4567" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="lead-service">Preferred Service *</label>
+          <select id="lead-service" class="form-select" required>
+            <option value="">Select a service</option>
+            <option value="interior-styling">Interior Styling Consultation</option>
+            <option value="living-room">Living Room Décor Design</option>
+            <option value="bedroom">Bedroom Styling</option>
+            <option value="wall-decor">Wall Décor & Art Placement</option>
+            <option value="furniture">Furniture Layout Optimization</option>
+            <option value="seasonal">Seasonal & Holiday Styling</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="lead-message">Message</label>
+          <textarea id="lead-message" class="form-textarea" placeholder="Tell us about your project..."></textarea>
+        </div>
+        <div class="checkbox-wrapper">
+          <input type="checkbox" id="lead-consent" required>
+          <label for="lead-consent">I agree to the <a href="privacy-policy.html" style="color: var(--color-primary); text-decoration: underline;">Privacy Policy</a> and <a href="terms-conditions.html" style="color: var(--color-primary); text-decoration: underline;">Terms & Conditions</a>.</label>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Request</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Cookie Consent Banner -->
+  <div id="cookie-consent" class="cookie-consent">
+    <div class="container">
+      <div class="cookie-content">
+        <p class="cookie-text">We use cookies to improve your website experience and provide analytics. By clicking "Accept Cookies", you consent to our use of cookies. <a href="cookie-policy.html">Learn more</a></p>
+        <div class="cookie-actions">
+          <button id="reject-cookies" class="btn btn-outline">Reject</button>
+          <button id="accept-cookies" class="btn btn-primary">Accept Cookies</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

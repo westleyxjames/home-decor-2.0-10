@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services - Luxe Nest Decor</title>
+  <meta name="description" content="Explore our comprehensive home décor services including interior styling, living room design, bedroom styling, and more.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- SVG Icons -->
+  <div style="display: none;">
+    <svg xmlns="http://www.w3.org/2000/svg">
+      <symbol id="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </symbol>
+      <symbol id="icon-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </symbol>
+      <symbol id="icon-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+      </symbol>
+      <symbol id="icon-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+        <polyline points="22,6 12,13 2,6"></polyline>
+      </symbol>
+      <symbol id="icon-map-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+        <circle cx="12" cy="10" r="3"></circle>
+      </symbol>
+    </svg>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <a href="index.html" class="logo">Luxe Nest Decor</a>
+        
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        
+        <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle menu">
+          <svg width="24" height="24"><use href="#icon-menu"></use></svg>
+        </button>
+      </div>
+      
+      <div id="mobile-menu" class="mobile-menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div style="max-width: 800px; margin: 0 auto;">
+          <h1>Our Professional Services</h1>
+          <p>Comprehensive home décor solutions tailored to your unique style and needs</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section">
+      <div class="container">
+        <!-- Service 1 -->
+        <div class="grid grid-2" style="align-items: center; gap: 3rem; margin-bottom: 4rem;">
+          <div>
+            <h2 style="font-size: 2rem; margin-bottom: 1rem;">🎨 Interior Styling Consultation</h2>
+            <p style="font-size: 1.125rem; line-height: 1.8; color: var(--color-gray-700); margin-bottom: 1.5rem;">Professional advice on improving the look and layout of your home. Our expert stylists will assess your current space and provide personalized recommendations to enhance its visual appeal and functionality. Get guidance on color schemes, décor placement, and design elements that reflect your personal taste.</p>
+            <button class="btn btn-primary" data-open-lead-form>Request Consultation</button>
+          </div>
+          <div>
+            <img src="https://images.unsplash.com/photo-1665970602684-10764ae9c612?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" alt="Interior styling consultation" style="border-radius: 0.5rem; box-shadow: 0 10px 30px rgba(0,0,0,0.15); width: 100%;">
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="grid grid-2" style="align-items: center; gap: 3rem; margin-bottom: 4rem;">
+          <div style="order: 2;">
+            <h2 style="font-size: 2rem; margin-bottom: 1rem;">🏠 Living Room Décor Design</h2>
+            <p style="font-size: 1.125rem; line-height: 1.8; color: var(--color-gray-700); margin-bottom: 1.5rem;">Furniture placement, décor accents, and lighting suggestions to create the perfect living space. We help you arrange furniture for optimal flow, select accent pieces that add personality, and design lighting schemes that create the right ambiance for relaxation and entertaining.</p>
+            <button class="btn btn-primary" data-open-lead-form>Get Started</button>
+          </div>
+          <div style="order: 1;">
+            <img src="https://images.unsplash.com/photo-1639663742190-1b3dba2eebcf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" alt="Living room décor design" style="border-radius: 0.5rem; box-shadow: 0 10px 30px rgba(0,0,0,0.15); width: 100%;">
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="grid grid-2" style="align-items: center; gap: 3rem; margin-bottom: 4rem;">
+          <div>
+            <h2 style="font-size: 2rem; margin-bottom: 1rem;">🛏️ Bedroom Styling</h2>
+            <p style="font-size: 1.125rem; line-height: 1.8; color: var(--color-gray-700); margin-bottom: 1.5rem;">Creating relaxing and elegant bedroom environments that promote rest and rejuvenation. Our bedroom styling service focuses on selecting the perfect color palette, bedding, window treatments, and décor elements to transform your bedroom into a peaceful sanctuary you'll love retreating to.</p>
+            <button class="btn btn-primary" data-open-lead-form>Book Service</button>
+          </div>
+          <div>
+            <img src="https://images.unsplash.com/photo-1769690399115-0bb9e860a65e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" alt="Bedroom styling" style="border-radius: 0.5rem; box-shadow: 0 10px 30px rgba(0,0,0,0.15); width: 100%;">
+          </div>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="grid grid-2" style="align-items: center; gap: 3rem; margin-bottom: 4rem;">
+          <div style="order: 2;">
+            <h2 style="font-size: 2rem; margin-bottom: 1rem;">🖼️ Wall Décor & Art Placement</h2>
+            <p style="font-size: 1.125rem; line-height: 1.8; color: var(--color-gray-700); margin-bottom: 1.5rem;">Guidance on artwork, mirrors, and wall accents to enhance your interior design. We provide expert advice on selecting art pieces that complement your style, proper placement techniques, gallery wall design, and using mirrors strategically to enhance light and create the illusion of space.</p>
+            <button class="btn btn-primary" data-open-lead-form>Schedule Now</button>
+          </div>
+          <div style="order: 1;">
+            <img src="https://images.unsplash.com/photo-1644413132413-a4c2eaa6c00a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" alt="Wall décor and art placement" style="border-radius: 0.5rem; box-shadow: 0 10px 30px rgba(0,0,0,0.15); width: 100%;">
+          </div>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="grid grid-2" style="align-items: center; gap: 3rem; margin-bottom: 4rem;">
+          <div>
+            <h2 style="font-size: 2rem; margin-bottom: 1rem;">🛋️ Furniture Layout Optimization</h2>
+            <p style="font-size: 1.125rem; line-height: 1.8; color: var(--color-gray-700); margin-bottom: 1.5rem;">Improving space flow and functionality through strategic furniture arrangement. We analyze your room dimensions and lifestyle needs to create layouts that maximize space, improve traffic flow, and enhance the overall usability of your home while maintaining visual balance and style.</p>
+            <button class="btn btn-primary" data-open-lead-form>Learn More</button>
+          </div>
+          <div>
+            <img src="https://images.unsplash.com/photo-1753362594001-60c847cab56a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" alt="Furniture layout optimization" style="border-radius: 0.5rem; box-shadow: 0 10px 30px rgba(0,0,0,0.15); width: 100%;">
+          </div>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="grid grid-2" style="align-items: center; gap: 3rem;">
+          <div style="order: 2;">
+            <h2 style="font-size: 2rem; margin-bottom: 1rem;">✨ Seasonal & Holiday Styling</h2>
+            <p style="font-size: 1.125rem; line-height: 1.8; color: var(--color-gray-700); margin-bottom: 1.5rem;">Refresh your home décor for different seasons and holidays. We help you select seasonal decorations, create festive arrangements, and transition your home's style throughout the year while maintaining a cohesive overall design that reflects your personal taste and celebrates each season beautifully.</p>
+            <button class="btn btn-primary" data-open-lead-form>Contact Us</button>
+          </div>
+          <div style="order: 1;">
+            <img src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080" alt="Seasonal and holiday styling" style="border-radius: 0.5rem; box-shadow: 0 10px 30px rgba(0,0,0,0.15); width: 100%;">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="section" style="background: linear-gradient(135deg, var(--color-beige), var(--color-cream)); text-align: center;">
+      <div class="container">
+        <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Ready to Transform Your Space?</h2>
+        <p style="font-size: 1.25rem; margin-bottom: 2rem; color: var(--color-gray-700); max-width: 700px; margin-left: auto; margin-right: auto;">Let our expert design team help you create the home you've always dreamed of.</p>
+        <button class="btn btn-primary btn-large" data-open-lead-form>Get Free Consultation</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+            <li><a href="disclaimer.html">Disclaimer</a></li>
+            <li><a href="cookie-policy.html">Cookie Policy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact Info</h3>
+          <ul>
+            <li class="contact-item">
+              <svg class="footer-icon"><use href="#icon-map-pin"></use></svg>
+              <span>10222 Desert Sands St Ste 204<br>San Antonio, TX 78116<br>United States</span>
+            </li>
+            <li class="contact-item">
+              <svg class="footer-icon"><use href="#icon-phone"></use></svg>
+              <a href="tel:+18053569285">+1-805-356-9285</a>
+            </li>
+            <li class="contact-item">
+              <svg class="footer-icon"><use href="#icon-mail"></use></svg>
+              <a href="mailto:help@luxenestdecor.site">help@luxenestdecor.site</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Luxe Nest Decor. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lead Form Modal -->
+  <div id="lead-form-modal" class="modal-overlay">
+    <div class="modal">
+      <button id="close-lead-form" class="modal-close">&times;</button>
+      <div class="modal-header">
+        <h2 class="modal-title">Request a Free Consultation</h2>
+      </div>
+      <form id="lead-form">
+        <div class="form-group">
+          <label class="form-label" for="lead-name">Name *</label>
+          <input type="text" id="lead-name" class="form-input" placeholder="Your full name" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="lead-email">Email *</label>
+          <input type="email" id="lead-email" class="form-input" placeholder="your@email.com" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="lead-phone">Phone *</label>
+          <input type="tel" id="lead-phone" class="form-input" placeholder="(555) 123-4567" required>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="lead-service">Preferred Service *</label>
+          <select id="lead-service" class="form-select" required>
+            <option value="">Select a service</option>
+            <option value="interior-styling">Interior Styling Consultation</option>
+            <option value="living-room">Living Room Décor Design</option>
+            <option value="bedroom">Bedroom Styling</option>
+            <option value="wall-decor">Wall Décor & Art Placement</option>
+            <option value="furniture">Furniture Layout Optimization</option>
+            <option value="seasonal">Seasonal & Holiday Styling</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="lead-message">Message</label>
+          <textarea id="lead-message" class="form-textarea" placeholder="Tell us about your project..."></textarea>
+        </div>
+        <div class="checkbox-wrapper">
+          <input type="checkbox" id="lead-consent" required>
+          <label for="lead-consent">I agree to the <a href="privacy-policy.html" style="color: var(--color-primary); text-decoration: underline;">Privacy Policy</a> and <a href="terms-conditions.html" style="color: var(--color-primary); text-decoration: underline;">Terms & Conditions</a>.</label>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Request</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Cookie Consent Banner -->
+  <div id="cookie-consent" class="cookie-consent">
+    <div class="container">
+      <div class="cookie-content">
+        <p class="cookie-text">We use cookies to improve your website experience and provide analytics. By clicking "Accept Cookies", you consent to our use of cookies. <a href="cookie-policy.html">Learn more</a></p>
+        <div class="cookie-actions">
+          <button id="reject-cookies" class="btn btn-outline">Reject</button>
+          <button id="accept-cookies" class="btn btn-primary">Accept Cookies</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
